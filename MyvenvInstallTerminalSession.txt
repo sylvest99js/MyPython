@@ -1,0 +1,107 @@
+Microsoft Windows [Version 10.0.19041.928]
+(c) Microsoft Corporation. All rights reserved.
+
+c:\Users\sylvest\MyPython>python -m venv venv
+python -m venv venv
+
+c:\Users\sylvest\MyPython>venv\Scripts\activate.bat
+venv\Scripts\activate.bat
+
+(venv) c:\Users\sylvest\MyPython>pip list
+pip list
+Package    Version
+---------- -------
+pip        20.2.3
+setuptools 49.2.1
+WARNING: You are using pip version 20.2.3; however, version 21.0.1 is available.
+You should consider upgrading via the 'c:\users\sylvest\mypython\venv\scripts\python.exe -m pip install --upgrade pip' command.
+
+(venv) c:\Users\sylvest\MyPython>c:\users\sylvest\mypython\venv\scripts\python.exe -m pip install --upgrade pip
+c:\users\sylvest\mypython\venv\scripts\python.exe -m pip install --upgrade pip
+Collecting pip
+  Using cached pip-21.0.1-py3-none-any.whl (1.5 MB)
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 20.2.3
+    Uninstalling pip-20.2.3:
+      Successfully uninstalled pip-20.2.3
+Successfully installed pip-21.0.1
+
+(venv) c:\Users\sylvest\MyPython>pip list
+pip list
+Package    Version
+---------- -------
+pip        21.0.1
+setuptools 49.2.1
+
+(venv) c:\Users\sylvest\MyPython>pip install pylint black pysnooper
+pip install pylint black pysnooper
+Collecting pylint
+  Using cached pylint-2.7.4-py3-none-any.whl (346 kB)
+Collecting black
+  Using cached black-20.8b1-py3-none-any.whl
+Collecting pysnooper
+  Downloading PySnooper-0.4.3-py2.py3-none-any.whl (14 kB)
+Collecting toml>=0.10.1
+  Using cached toml-0.10.2-py2.py3-none-any.whl (16 kB)
+Collecting appdirs
+  Using cached appdirs-1.4.4-py2.py3-none-any.whl (9.6 kB)
+Collecting regex>=2020.1.8
+  Using cached regex-2021.4.4-cp39-cp39-win_amd64.whl (270 kB)
+Collecting typing-extensions>=3.7.4
+  Using cached typing_extensions-3.7.4.3-py3-none-any.whl (22 kB)
+Collecting click>=7.1.2
+  Using cached click-7.1.2-py2.py3-none-any.whl (82 kB)
+Collecting pathspec<1,>=0.6
+  Using cached pathspec-0.8.1-py2.py3-none-any.whl (28 kB)
+Collecting mypy-extensions>=0.4.3
+  Using cached mypy_extensions-0.4.3-py2.py3-none-any.whl (4.5 kB)
+Collecting typed-ast>=1.4.0
+  Using cached typed_ast-1.4.3-cp39-cp39-win_amd64.whl (158 kB)
+Collecting mccabe<0.7,>=0.6
+  Using cached mccabe-0.6.1-py2.py3-none-any.whl (8.6 kB)
+Collecting colorama
+  Using cached colorama-0.4.4-py2.py3-none-any.whl (16 kB)
+Collecting astroid<2.7,>=2.5.2
+  Using cached astroid-2.5.3-py3-none-any.whl (226 kB)
+Collecting isort<6,>=4.2.5
+  Using cached isort-5.8.0-py3-none-any.whl (103 kB)
+Collecting lazy-object-proxy>=1.4.0
+  Using cached lazy_object_proxy-1.6.0-cp39-cp39-win_amd64.whl (22 kB)
+Collecting wrapt<1.13,>=1.11
+  Using cached wrapt-1.12.1.tar.gz (27 kB)
+Using legacy 'setup.py install' for wrapt, since package 'wheel' is not installed.
+Installing collected packages: wrapt, lazy-object-proxy, typing-extensions, typed-ast, toml, regex, pathspec, mypy-extensions, mccabe, isort, colorama, click, astroid, appdirs, pysnooper, pylint, black
+    Running setup.py install for wrapt: started
+    Running setup.py install for wrapt: finished with status 'done'
+Successfully installed appdirs-1.4.4 astroid-2.5.3 black-20.8b1 click-7.1.2 colorama-0.4.4 isort-5.8.0 lazy-object-proxy-1.6.0 mccabe-0.6.1 mypy-extensions-0.4.3 pathspec-0.8.1 pylint-2.7.4 pysnooper-0.4.3 regex-2021.4.4 toml-0.10.2 typed-ast-1.4.3 typing-extensions-3.7.4.3 wrapt-1.12.1
+
+(venv) c:\Users\sylvest\MyPython>pip list
+pip list
+Package           Version
+----------------- --------
+appdirs           1.4.4
+astroid           2.5.3
+black             20.8b1
+click             7.1.2
+colorama          0.4.4
+isort             5.8.0
+lazy-object-proxy 1.6.0
+mccabe            0.6.1
+mypy-extensions   0.4.3
+pathspec          0.8.1
+pip               21.0.1
+pylint            2.7.4
+PySnooper         0.4.3
+regex             2021.4.4
+setuptools        49.2.1
+toml              0.10.2
+typed-ast         1.4.3
+typing-extensions 3.7.4.3
+wrapt             1.12.1
+
+(venv) c:\Users\sylvest\MyPython>exit
+exit
+
+Process shell finished
+
