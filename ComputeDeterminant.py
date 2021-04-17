@@ -15,6 +15,10 @@ def determinant(matrix):
             aa = without_row_1[nn].copy()
             aa.pop(mmm)
             minor.append(aa)
+
+        # minor = without_row_1[:][:].copy() # deep copy
+        # for nn in range(len(minor)):
+        #     minor[nn].pop(mmm)
             
         dm = determinant(minor)
         factor *= -1  # alternating signs in sum
